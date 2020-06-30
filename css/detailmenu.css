@@ -87,14 +87,57 @@ h4 {
   background-color: #fcdfdb;
   width: 80%;
   margin-top: 80px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
   font-family: 'Playball', cursive;
   display: flex;
   flex-direction: column;
-  padding: 0; }
+  padding: 0;
+  box-shadow: 1px 1px 12px #555; }
+
+#menulechicalafrancaise {
+  background-color: #fff5fe;
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  font-family: 'Roboto Slab', cursive;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-shadow: 0.5px 0.5px 10px #555; }
+
+#menudelicedespapilles {
+  background-color: #fff5fe;
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-shadow: 0.5px 0.5px 10px #555; }
+
+#menulapalettedugout {
+  background-color: #fdfffd;
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  font-family: 'Kaushan Script', cursive;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-shadow: 0.5px 0.5px 10px #555; }
 
 h3 {
   margin-bottom: 20px;
@@ -106,11 +149,6 @@ h3 {
   font-size: 3.8em;
   margin-top: 80px;
   margin-bottom: 110px; }
-
-.nommenu i {
-  font-size: 2em;
-  /*faire un dégradé*/
-  color: red; }
 
 .entree_menu {
   text-align: center;
@@ -158,11 +196,40 @@ h3 {
   flex-direction: row;
   margin-bottom: 10%; }
 
-.nommenubas i {
+.nommenubas img {
   margin: auto 40px;
-  font-size: 4em; }
+  height: 80px;
+  width: 80px;
+  padding-top: 75px; }
 
 .nommenubas h5 {
   font-size: 4em; }
+
+/* ----------------- couleurs menus ---------------- */
+#menulechicalafrancaise .entree_menu {
+  color: #c16800; }
+
+#menulechicalafrancaise .plat_menu {
+  color: #a56799; }
+
+#menulechicalafrancaise .dessert_menu {
+  color: #6e4ccc; }
+
+/* -------------- traits menus -------------------*/
+.titre_entree, .titre_plat, .titre_dessert {
+  display: flex;
+  flex-direction: row; }
+
+#menulapalettedugout img {
+  margin: 2%; }
+
+#menulanoteenchantee img {
+  margin: 2%; }
+
+#menudelicedespapilles img {
+  margin: 2%; }
+
+#menulechicalafrancaise img {
+  margin: 2%; }
 
 /*# sourceMappingURL=detailmenu.css.map */

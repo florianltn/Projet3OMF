@@ -64,10 +64,6 @@ h3{
     align-content: center;
 }
 
-#menu1 i{
-    padding-bottom: 0;
-}
-
 #menu1 p{
     padding-top: 50px;
 }
@@ -79,7 +75,7 @@ h3{
     padding-top: 20%;
     padding-bottom: 20%;   
     text-align: center;
-    font-family: 'Croissant One', cursive;
+    font-family: "Roboto Slab", cursive;
     font-size: 2.5em;
     align-content: center;
 }
@@ -168,7 +164,7 @@ h3{
 
 /*-------------------- PAGES MENUS ------------------- */
 
-#menu1:hover i, #menu1:hover h2, #menu1:hover p, #menu2:hover h2, #menu2:hover p, #menu3:hover h2, #menu3:hover p, #menu4:hover h2, #menu4:hover p{
+#menu1:hover img, #menu1:hover h2, #menu1:hover p, #menu2:hover h2, #menu2:hover p, #menu3:hover h2, #menu3:hover p, #menu4:hover h2, #menu4:hover p{
     transform: scale(1.2);
 }
 
@@ -177,8 +173,7 @@ h3{
     font-size: 1.8em;
 }
 
-i{
-    font-size: 2em;
+img{
     margin-bottom: 15px;
 }
 
@@ -186,9 +181,7 @@ i{
     font-size: 1.8em;
 }
 
-#menu2 h2{
-    font-size: 1.2em;
-}
+
 
 /* ------------------------- RESPONSIVE ---------------------------- */
 @media only screen and (max-width: 1200px){
@@ -219,8 +212,6 @@ i{
         margin-bottom: 40px;
     }
     #prochainement{
-        margin-left: auto;
-        margin-right: auto;
         align-content: center;
     }
 }
