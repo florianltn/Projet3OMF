@@ -1,0 +1,18 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Site Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianltn/Projet3OMF"
+  },
+  "author": "florianltn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianltn/Projet3OMF"
+  }
+}

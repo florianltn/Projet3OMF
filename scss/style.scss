@@ -1,0 +1,206 @@
+@import "headerfooter.scss";
+
+/* ------------------------ ACCUEIL ------------------------ */
+
+#menus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#menusligne1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#menusligne2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#prochainement{
+    display: flex;
+    justify-content: center;
+    background-color: $green;
+    margin-left: 700px;
+    margin-right: 700px;
+    text-align: center;
+    box-shadow: 1px 1px 12px #555;
+    margin-top: 80px;
+    margin-bottom: 180px;
+    border-radius : 12px 12px / 12px 12px;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    color: $yellow;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Blocs menus */ 
+
+#menu1{
+    background-color: #fcdfdb;
+    color: black;
+    box-shadow: 1px 1px 12px #555;
+    width: 47%;
+    padding-top: 20%;
+    padding-bottom: 20%;   
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 2.5em;
+}
+
+#menu1 i{
+    padding-bottom: 0;
+}
+
+#menu1 p{
+    padding-top: 50px;
+}
+
+#menu2{
+    background-color: #fff5fe;
+    box-shadow: 1px 1px 12px #555;
+    width: 47%;
+    padding-top: 20%;
+    padding-bottom: 20%;   
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    font-size: 2.5em;
+}
+
+#menu3{
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 12px #555;
+    width: 47%;
+    padding-top: 20%;
+    padding-bottom: 20%;   
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+}
+
+#menus3 a{
+    color: blue($color: #000000);
+}
+
+#menu3 p{
+    font-family: 'Kaushan Script', cursive;
+}
+
+#menu4{
+    background-color: #fdfffd;
+    box-shadow: 1px 1px 12px #555;
+    width: 47%;
+    padding-top: 20%;
+    padding-bottom: 20%;    
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5em;
+}
+
+/* animation POINTS */
+
+.points{
+    color: #fdcb46;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $yellow;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes blink {
+    /*Au début de l'animation le point a 0.2 d'opacité */
+    0% {
+      opacity: .2;
+    }
+    /* A 20% le point est visible au maximum */
+    20% {
+      opacity: 1;
+    }
+    /* On termine avec une opacité à 0.2, et l'animation peut recommencer */
+    100% {
+      opacity: .2;
+    }
+}
+
+.points span {
+    /* Nom de l'animation défini dans la keyframe au dessus */
+    animation-name: blink;
+    /* Durée de l'animation; 1.4secondes */
+    animation-duration: 1.4s;
+    /* Elle se répète a l'infini */
+    animation-iteration-count: infinite;
+    /*  */
+    animation-fill-mode: both;
+}
+
+.points span:nth-child(2) {
+    /* Délai pour le départ de l'animation sur le 2ème point */
+    animation-delay: .2s;
+}
+
+.points span:nth-child(3) {
+    /* Délai pour le départ de l'animation sur le 3ème point */
+    animation-delay: .4s;
+}
+
+/* wiggle */
+
+
+/*-------------------- PAGES MENUS ------------------- */
+
+#menu1:hover i, #menu1:hover h2, #menu1:hover p,, #menu2:hover h2, #menu2:hover p,, #menu3:hover h2, #menu3:hover p, #menu4:hover h2, #menu4:hover p,{
+    transform: scale(1.2);
+}
+
+#menu1 p, #menu2 p, #menu3 p, #menu4 p{
+    margin-top: 40px;
+    font-size: 1.8em;
+}
+
+i{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#menu1 h2, #menu3 h2, #menu4 h2{
+    font-size: 1.8em;
+}
+
+#menu2 h2{
+    font-size: 1.2em;
+}
+
+/* ------------------------- RESPONSIVE ---------------------------- */
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+    header{
+        display: block;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #prochainement{
+        text-align: center;
+    }
+}

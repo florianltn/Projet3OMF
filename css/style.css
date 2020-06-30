@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* reset */
+body {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, i, p {
+  margin-block-start: 0;
+  margin-block-end: 0; }
+
+/* Variables */
+/* ------------------------ HEADER FOOTER -------------------------- */
+header, footer {
+  background-color: #579c87;
+  padding: 0 0; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+h1 {
+  /* titre ohmyfood */
+  color: #fdcb46;
+  text-align: center;
+  font-size: 5.5em;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif; }
+
+h4 {
+  /* titres footer */
+  color: #fdcb46;
+  text-align: justify;
+  display: inline-block;
+  font-size: 2.2em;
+  font-family: 'Montserrat', sans-serif; }
+
+#textfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#contacteznous {
+  text-align: right;
+  padding-right: 20px; }
+
+#mentionslegales {
+  text-align: left;
+  padding-left: 20px; }
+
+#contacteznous:hover, #mentionslegales:hover {
+  /* Lancement de l'animation Shake pour une durée de 0.5s */
+  animation: shake 0.5s;
+  /* Quand l'animation se termine, elle recommence */
+  animation-iteration-count: infinite; }
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg); }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg); }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg); }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg); }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg); }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg); }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg); }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg); }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg); }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg); }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg); } }
+/* ------------------------ ACCUEIL ------------------------ */
+#menus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-right: 120px; }
+
+#menusligne1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px; }
+
+#menusligne2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+
+#prochainement {
+  display: flex;
+  justify-content: center;
+  background-color: #579c87;
+  margin-left: 700px;
+  margin-right: 700px;
+  text-align: center;
+  box-shadow: 1px 1px 12px #555;
+  margin-top: 80px;
+  margin-bottom: 180px;
+  border-radius: 12px 12px / 12px 12px; }
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  color: #fdcb46;
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif; }
+
+/* Blocs menus */
+#menu1 {
+  background-color: #fcdfdb;
+  color: black;
+  box-shadow: 1px 1px 12px #555;
+  width: 47%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 2.5em; }
+
+#menu1 i {
+  padding-bottom: 0; }
+
+#menu1 p {
+  padding-top: 50px; }
+
+#menu2 {
+  background-color: #fff5fe;
+  box-shadow: 1px 1px 12px #555;
+  width: 47%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  font-family: 'Croissant One', cursive;
+  font-size: 2.5em; }
+
+#menu3 {
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 12px #555;
+  width: 47%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em; }
+
+#menus3 a {
+  color: 0; }
+
+#menu3 p {
+  font-family: 'Kaushan Script', cursive; }
+
+#menu4 {
+  background-color: #fdfffd;
+  box-shadow: 1px 1px 12px #555;
+  width: 47%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em; }
+
+/* animation POINTS */
+.points {
+  color: #fdcb46;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fdcb46;
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif; }
+
+@keyframes blink {
+  /*Au début de l'animation le point a 0.2 d'opacité */
+  0% {
+    opacity: .2; }
+  /* A 20% le point est visible au maximum */
+  20% {
+    opacity: 1; }
+  /* On termine avec une opacité à 0.2, et l'animation peut recommencer */
+  100% {
+    opacity: .2; } }
+.points span {
+  /* Nom de l'animation défini dans la keyframe au dessus */
+  animation-name: blink;
+  /* Durée de l'animation; 1.4secondes */
+  animation-duration: 1.4s;
+  /* Elle se répète a l'infini */
+  animation-iteration-count: infinite;
+  /*  */
+  animation-fill-mode: both; }
+
+.points span:nth-child(2) {
+  /* Délai pour le départ de l'animation sur le 2ème point */
+  animation-delay: .2s; }
+
+.points span:nth-child(3) {
+  /* Délai pour le départ de l'animation sur le 3ème point */
+  animation-delay: .4s; }
+
+/* wiggle */
+/*-------------------- PAGES MENUS ------------------- */
+#menu1:hover i, #menu1:hover h2, #menu1:hover p, #menu2:hover h2, #menu2:hover p, #menu3:hover h2, #menu3:hover p, #menu4:hover h2, #menu4:hover p {
+  transform: scale(1.2); }
+
+#menu1 p, #menu2 p, #menu3 p, #menu4 p {
+  margin-top: 40px;
+  font-size: 1.8em; }
+
+i {
+  font-size: 2em;
+  margin-bottom: 15px; }
+
+#menu1 h2, #menu3 h2, #menu4 h2 {
+  font-size: 1.8em; }
+
+#menu2 h2 {
+  font-size: 1.2em; }
+
+/* ------------------------- RESPONSIVE ---------------------------- */
+@media only screen and (max-width: 768px) {
+  header {
+    display: block; }
+
+  body {
+    margin: 0;
+    padding: 0; }
+
+  #prochainement {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */

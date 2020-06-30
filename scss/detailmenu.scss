@@ -1,0 +1,103 @@
+@import "headerfooter.scss";
+
+/* -------------- La note enchantée ------------- */
+
+#menulanoteenchantee .entree_menu, #menulanoteenchantee .plat_menu, #menulanoteenchantee .dessert_menu{
+    margin: 0% 8% 8% 8% 8%;
+}
+
+
+#menulanoteenchantee{
+    background-color: #fcdfdb;
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: 'Playball', cursive;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+h3{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.nommenu{
+    text-align: center;
+    font-size: 3.8em;
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+
+.nommenu i{
+    font-size: 2em;
+    /*faire un dégradé*/
+    color: red;
+}
+
+.entree_menu{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 110px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.plat_menu{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 110px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.dessert_menu{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 110px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.lignemenu p{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 75%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.lignemenu em{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    float: right;
+    width: 25%;
+}
+
+
+.nommenubas{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.nommenubas i{
+    margin: auto 40px;
+    font-size: 4em;
+}
+
+.nommenubas h5{
+    font-size: 4em;
+}
