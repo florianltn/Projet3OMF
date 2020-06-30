@@ -1,6 +1,6 @@
 /*
 Error: Invalid CSS after "...tils/variables"": expected "{", was ";"
-        on line 3 of C:\Users\Florian\Desktop\Ohmyfood\scss\sass\main.scss
+        on line 3 of C:\Users\Florian\Documents\Ohmyfood\sass\sass\main.scss
 
 1: sass <main.scss> [style.css]
 2: 
@@ -12,7 +12,7 @@ Error: Invalid CSS after "...tils/variables"": expected "{", was ";"
 8: @import "./base/base";
 
 Backtrace:
-C:\Users\Florian\Desktop\Ohmyfood\scss\sass\main.scss:3
+C:\Users\Florian\Documents\Ohmyfood\sass\sass\main.scss:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
@@ -36,4 +36,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...tils/variables\"\": expected \"{\", was \";\"\A         on line 3 of C:\Users\Florian\Desktop\Ohmyfood\scss\sass\main.scss\A \A 1: sass <main.scss> [style.css]\A 2: \A 3: @import \"./utils/variables\";\A 4: @import \"./utils/functions\";\A 5: @import \"./utils/mixins\";\A 6: @import \"./utils/extensions\";\A 7: \A 8: @import \"./base/base\";"; }
+  content: "Error: Invalid CSS after \"...tils/variables\"\": expected \"{\", was \";\"\A         on line 3 of C:\Users\Florian\Documents\Ohmyfood\sass\sass\main.scss\A \A 1: sass <main.scss> [style.css]\A 2: \A 3: @import \"./utils/variables\";\A 4: @import \"./utils/functions\";\A 5: @import \"./utils/mixins\";\A 6: @import \"./utils/extensions\";\A 7: \A 8: @import \"./base/base\";"; }
