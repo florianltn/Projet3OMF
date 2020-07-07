@@ -160,13 +160,13 @@ p, em{
     float: left;
     width: 75%;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
 }
 
 .lignemenu em{
     flex-direction: row;
     justify-content: space-between;
-    text-align: center;
+    text-align: right;
     float: right;
     width: 25%;
 }
@@ -208,23 +208,13 @@ p, em{
 .titre_entree, .titre_plat, .titre_dessert{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-#menulapalettedugout img{
+#menulapalettedugout img, #menulanoteenchantee img, #menudelicedespapilles img, #menulechicalafrancaise img{
     margin: 2%;
 }
 
-#menulanoteenchantee img{
-    margin: 2%;
-}
-
-#menudelicedespapilles img{
-    margin: 2%;
-}
-
-#menulechicalafrancaise img{
-    margin: 2%;
-}
 
 /* ------------ anim soulignement menu titres ------------ */
 .titre_entree, .titre_plat, .titre_dessert{
@@ -274,10 +264,22 @@ p, em{
 }
 
 @media only screen and (max-width: 1200px){
+    body{
+        font-size: 80%;
+    }
     #lignemenu{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        font-size: 50%;
+    }
+    .entree_menu, .plat_menu, .dessert_menu{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
