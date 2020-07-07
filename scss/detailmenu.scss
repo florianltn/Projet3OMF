@@ -226,6 +226,30 @@ p, em{
     margin: 2%;
 }
 
+/* ------------ anim soulignement menu titres ------------ */
+.titre_entree, .titre_plat, .titre_dessert{
+    h3.left{
+    position: relative;
+    }
+
+    h3.left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(250, 206, 9);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    }
+
+    h3.left:hover:before {
+    visibility: visible;
+    width: 100%;
+    }
+}  
+
 /* ----------------------- RESPONSIVE ----------------------- */ 
 
 @media only screen and (max-width: 1200px){

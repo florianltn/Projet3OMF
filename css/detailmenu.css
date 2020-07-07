@@ -268,6 +268,23 @@ p, em {
 #menulechicalafrancaise img {
   margin: 2%; }
 
+/* ------------ anim soulignement menu titres ------------ */
+.titre_entree h3.left, .titre_plat h3.left, .titre_dessert h3.left {
+  position: relative; }
+.titre_entree h3.left:before, .titre_plat h3.left:before, .titre_dessert h3.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #face09;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out; }
+.titre_entree h3.left:hover:before, .titre_plat h3.left:hover:before, .titre_dessert h3.left:hover:before {
+  visibility: visible;
+  width: 100%; }
+
 /* ----------------------- RESPONSIVE ----------------------- */
 @media only screen and (max-width: 1200px) {
   #menulechicalafrancaise img, #menulanoteenchantee img, #menulapalettedugout img, #menudelicedespapilles img {
