@@ -175,9 +175,6 @@ h3 {
   font-size: 2.5em;
   align-content: center; }
 
-#menus3 a {
-  color: 0; }
-
 #menu3 p {
   font-family: 'Kaushan Script', cursive; }
 
@@ -191,6 +188,44 @@ h3 {
   font-family: 'Kaushan Script', cursive;
   font-size: 2.5em;
   align-content: center; }
+
+/* -------- couleur texte titres menus -------- */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+#menu1 p, #menu1 h2 {
+  color: black; }
+
+#menu2 h2 {
+  background-image: linear-gradient(155deg, #dc8527, #9f63d3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+#menu2 p {
+  color: #c77412; }
+
+#menu3 h2 {
+  background-image: linear-gradient(155deg, #0023db, #50a9f8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+#menu3 p {
+  color: #0887fb; }
+
+#menu4 h2 {
+  background-image: linear-gradient(150deg, #3e923a, #ccfd9c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+#menu4 p {
+  color: #72bf56; }
 
 /* animation POINTS */
 .points {
@@ -229,10 +264,10 @@ h3 {
   /* Délai pour le départ de l'animation sur le 3ème point */
   animation-delay: .4s; }
 
-/* wiggle */
 /*-------------------- PAGES MENUS ------------------- */
 #menu1:hover img, #menu1:hover h2, #menu1:hover p, #menu2:hover h2, #menu2:hover p, #menu3:hover h2, #menu3:hover p, #menu4:hover h2, #menu4:hover p {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+  transition: transform 200ms ease-in; }
 
 #menu1 p, #menu2 p, #menu3 p, #menu4 p {
   margin-top: 40px;

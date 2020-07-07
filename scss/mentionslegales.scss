@@ -1,5 +1,9 @@
 @import "headerfooter.scss";
 
+body{
+    display: block;
+}
+
 #contacteznous:hover{
     /* Lancement de l'animation Shake pour une durée de 0.5s */
     animation: shake 0.5s;
