@@ -10,6 +10,9 @@ h1, h2, h3, h4, i, p {
 
 /* Variables */
 /* ------------------------ HEADER FOOTER -------------------------- */
+a {
+  text-decoration: none; }
+
 header, footer {
   background-color: #579c87;
   padding: 0 0; }
@@ -79,6 +82,16 @@ h4 {
     transform: translate(1px, 2px) rotate(0deg); }
   100% {
     transform: translate(1px, -2px) rotate(-1deg); } }
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 4em; }
+
+  h4 {
+    font-size: 2em; } }
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.8em; } }
 /* -------------- La note enchantée ------------- */
 #menulanoteenchantee .entree_menu, #menulanoteenchantee .plat_menu, #menulanoteenchantee .dessert_menu {
   margin: 0% 8% 8% 8% 8%; }
@@ -295,7 +308,7 @@ p, em {
   #menulachicalafrancaise em, #menulanoteenchantee em, #menulapalettedugout em, #menudelicedespapilles em {
     font-size: 2em; } }
 @media only screen and (max-width: 1200px) {
-  body {
+  section {
     font-size: 80%; }
 
   #lignemenu {
@@ -303,7 +316,7 @@ p, em {
     flex-direction: column;
     justify-content: space-between; } }
 @media only screen and (max-width: 500px) {
-  body {
+  section {
     font-size: 50%; }
 
   .entree_menu, .plat_menu, .dessert_menu {

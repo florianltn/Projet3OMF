@@ -263,8 +263,8 @@ p, em{
 }
 
 @media only screen and (max-width: 1200px){
-    body{
-        font-size: 80%;
+    section{
+    font-size: 80%;
     }
     #lignemenu{
         display: flex;
@@ -274,7 +274,7 @@ p, em{
 }
 
 @media only screen and (max-width: 500px){
-    body{
+    section{
         font-size: 50%;
     }
     .entree_menu, .plat_menu, .dessert_menu{

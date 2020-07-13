@@ -17,6 +17,10 @@ $yellow: #fdcb46;
 
 /* ------------------------ HEADER FOOTER -------------------------- */
 
+a{
+    text-decoration: none;
+}
+
 header, footer{
     background-color: $green;
     padding: 0 0;
@@ -86,3 +90,20 @@ h4{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+  /* Responsive */
+
+@media only screen and (max-width: 1200px){
+    h1{
+    font-size: 4em;
+    }
+    h4{
+    font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    h1{
+        font-size: 2.8em;
+    }
+}
