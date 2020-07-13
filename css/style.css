@@ -24,7 +24,7 @@ h1 {
   color: #fdcb46;
   text-align: center;
   font-size: 5.5em;
-  padding-bottom: 15px;
+  padding-bottom: 13px;
   font-family: 'Montserrat', sans-serif; }
 
 h4 {
@@ -85,8 +85,8 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 40px;
-  margin-left: 120px;
-  margin-right: 120px; }
+  margin-left: 40px;
+  margin-right: 40px; }
 
 #menusligne1 {
   display: flex;
@@ -94,12 +94,6 @@ h4 {
   justify-content: space-between;
   width: 100%;
   margin-bottom: 40px; }
-
-#menusligne2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%; }
 
 #prochainement {
   display: flex;
@@ -123,13 +117,15 @@ h3 {
   font-family: 'Montserrat', sans-serif; }
 
 /* Blocs menus */
+#menu1, #menu2, #menu3 {
+  margin-right: 20px; }
+
 #menu1 {
   background-color: #fcdfdb;
   color: black;
   box-shadow: 1px 1px 12px #555;
-  width: 47%;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: auto;
+  width: auto;
   text-align: center;
   font-family: 'Playball', cursive;
   font-size: 2.2em;
@@ -145,9 +141,8 @@ h3 {
 #menu2 {
   background-color: #fff5fe;
   box-shadow: 1px 1px 12px #555;
-  width: 47%;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: auto;
+  width: auto;
   text-align: center;
   font-family: "Roboto Slab", cursive;
   font-size: 2.2em;
@@ -159,9 +154,8 @@ h3 {
 #menu3 {
   background-color: #f9f9f9;
   box-shadow: 1px 1px 12px #555;
-  width: 47%;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: auto;
+  width: auto;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 2.2em;
@@ -173,9 +167,8 @@ h3 {
 #menu4 {
   background-color: #fdfffd;
   box-shadow: 1px 1px 12px #555;
-  width: 47%;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: auto;
+  width: auto;
   text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-size: 2.2em;
@@ -289,34 +282,27 @@ img {
 @media only screen and (max-width: 900px) {
   #menus {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     margin-right: 40px;
     margin-left: 40px; }
 
-  #menusligne1 {
-    flex-direction: column;
-    justify-content: space-between; }
-
-  #menusligne2 {
-    flex-direction: column; }
-
   #menu1, #menu2, #menu3, #menu4 {
     width: 100%;
-    justify-content: space-between;
-    padding-top: 50%;
-    padding-bottom: 50%;
-    margin: auto; }
+    justify-content: space-between; }
 
-  #menu1, #menu3 {
+  #menu1, #menu2, #menu3, #menu4 {
     margin-bottom: 40px; }
 
   #prochainement {
     align-content: center;
     width: 450px; } }
 @media only screen and (max-width: 768px) {
+  #menusligne1 {
+    flex-direction: column;
+    justify-content: space-between; }
+
   h1 {
-    font-size: 4em; }
+    font-size: 3em; }
 
   #menus h2 {
     font-size: 1.3em; }
