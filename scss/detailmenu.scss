@@ -1,40 +1,42 @@
 @import "headerfooter.scss";
 
 /* -------------- La note enchantée ------------- */
+#menulanoteenchantee, #menulechicalafrancaise, #menudelicedespapilles, #menulapalettedugout{
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    box-shadow: 0.5px 0.5px 10px #555;
+}
 
 #menulanoteenchantee .entree_menu, #menulanoteenchantee .plat_menu, #menulanoteenchantee .dessert_menu{
     margin: 0% 8% 8% 8% 8%;
 }
 
-
+/* ---- fond + police ---- */
 #menulanoteenchantee{
     background-color: #fcdfdb;
-    width: 80%;
-    margin-top: 80px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
     font-family: 'Playball', cursive;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    box-shadow: 1px 1px 12px #555;
+}
+
+#menudelicedespapilles{
+    background-color: #fff5fe;
+    font-family: 'Dancing Script', cursive;
+}
+
+#menulapalettedugout{
+    background-color: #fdfffd;
+    font-family: 'Kaushan Script', cursive;
 }
 
 #menulechicalafrancaise{
     background-color: #fff5fe;
-    width: 80%;
-    margin-top: 80px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
     font-family: 'Roboto Slab', cursive;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    box-shadow: 0.5px 0.5px 10px #555;
 }
 
 /* dégradé titre */
@@ -46,21 +48,6 @@
     text-fill-color: transparent;
 }
 
-#menudelicedespapilles{
-    background-color: #fff5fe;
-    width: 80%;
-    margin-top: 80px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    box-shadow: 0.5px 0.5px 10px #555;
-}
-
 /* dégradé titre */ 
 #menudelicedespapilles h2{
     background-image: linear-gradient(155deg, #0023db, #50a9f8);
@@ -68,21 +55,6 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
-}
-
-#menulapalettedugout{
-    background-color: #fdfffd;
-    width: 80%;
-    margin-top: 80px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    font-family: 'Kaushan Script', cursive;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    box-shadow: 0.5px 0.5px 10px #555;
 }
 
 /* dégradé titre */
