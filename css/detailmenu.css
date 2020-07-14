@@ -246,13 +246,16 @@ p, em {
   margin-bottom: 10%; }
 
 .nommenubas img {
-  margin: auto 40px;
-  height: 80px;
-  width: 80px;
-  padding-top: 75px; }
+  height: 4em;
+  max-width: 100%;
+  margin-top: 1%;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-left: 0px; }
 
 .nommenubas h5 {
-  font-size: 4em; }
+  font-size: 4em;
+  margin: 0; }
 
 /* ----------------- couleurs menus ---------------- */
 #menulechicalafrancaise .entree_menu {
@@ -314,7 +317,11 @@ p, em {
   #lignemenu {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+
+  .nommenu img {
+    height: 8em;
+    width: 8em; } }
 @media only screen and (max-width: 900px) {
   #menulachicalafrancaise, #menulanoteenchantee, #menulapalettedugout, #menudelicedespapilles {
     width: 100%; } }
