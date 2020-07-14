@@ -315,6 +315,9 @@ p, em {
     display: flex;
     flex-direction: column;
     justify-content: space-between; } }
+@media only screen and (max-width: 900px) {
+  #menulachicalafrancaise, #menulanoteenchantee, #menulapalettedugout, #menudelicedespapilles {
+    width: 100%; } }
 @media only screen and (max-width: 500px) {
   section {
     font-size: 50%; }
