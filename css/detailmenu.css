@@ -246,7 +246,7 @@ p, em {
   margin-bottom: 10%; }
 
 .nommenubas img {
-  height: 4em;
+  height: 4.5em;
   max-width: 100%;
   margin-top: 1%;
   margin-right: 30px;
@@ -255,7 +255,7 @@ p, em {
 
 .nommenubas h5 {
   font-size: 4em;
-  margin: 0; }
+  margin: 2%; }
 
 /* ----------------- couleurs menus ---------------- */
 #menulechicalafrancaise .entree_menu {
