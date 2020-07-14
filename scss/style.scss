@@ -235,11 +235,23 @@ img{
         margin-right: 40px;
         margin-left: 40px;
     }
+    #menu1, #menu2, #menu3, #menu4{
+        height: 20em;       
+    }
+    #menu1, #menu3{
+        margin-right: 50px;
+    }
     #menus h2{
-        font-size: 1em;
+        font-size: 0.8em;
     }
     #menus p{
-        font-size: 1em;
+        font-size: 0.8em;
+    }
+    h1{
+        font-size: 4em;
+    }
+    h4{
+        font-size: 1.8em;
     }
 }
 
@@ -256,13 +268,17 @@ img{
     #menu1, #menu2, #menu3, #menu4{
         width: 100%;
         justify-content: space-between;        
-    }
-    #menu1, #menu2, #menu3, #menu4{
         margin-bottom: 40px;
     }
     #prochainement{
         align-content: center;
         width: 450px;
+    }
+    h4{
+        font-size: 1.3em;
+    }
+    #menusligne1{
+        margin-bottom: 0px;
     }
 }
 
@@ -310,5 +326,20 @@ img{
     }
     #menusligne2{
         justify-content: center;
+    }
+    h4{
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    h1{
+        font-size: 2.8em;
+    }
+    h4{
+        font-size: 1em;
+    }
+    h2, p{
+        font-size: 0.6em;
     }
 }
