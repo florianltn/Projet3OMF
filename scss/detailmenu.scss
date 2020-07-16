@@ -14,10 +14,6 @@
     box-shadow: 0.5px 0.5px 10px #555;
 }
 
-#menulanoteenchantee .entree_menu, #menulanoteenchantee .plat_menu, #menulanoteenchantee .dessert_menu{
-    margin: 0% 8% 8% 8% 8%;
-}
-
 /* ---- fond + police ---- */
 #menulanoteenchantee{
     background-color: #fcdfdb;
@@ -43,27 +39,21 @@
 #menulechicalafrancaise h2{
     background-image: linear-gradient(155deg, #dc8527, #9f63d3);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
 }
 
 /* dégradé titre */ 
 #menudelicedespapilles h2{
     background-image: linear-gradient(155deg, #0023db, #50a9f8);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
 }
 
 /* dégradé titre */
 #menulapalettedugout h2{
     background-image: linear-gradient(150deg, #3e923a, #ccfd9c);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
 }
 
 h3{

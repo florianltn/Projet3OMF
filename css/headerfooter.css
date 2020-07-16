@@ -5,8 +5,8 @@ body {
   padding: 0; }
 
 h1, h2, h3, h4, i, p {
-  margin-block-start: 0;
-  margin-block-end: 0; }
+  margin: 0;
+  margin: 0; }
 
 /* Variables */
 /* ------------------------ HEADER FOOTER -------------------------- */
